@@ -1,7 +1,7 @@
 {
     "name": "SlackSidebarTinyExtender",
     "description": "Slackの左カラムにちょっとだけ機能を加えます。",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "manifest_version": 2,
     "content_scripts": [{
         "matches": [
