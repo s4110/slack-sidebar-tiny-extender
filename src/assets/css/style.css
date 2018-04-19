@@ -1,0 +1,27 @@
+.client_container .client_channels_list_container {
+    min-width: 220px;
+    flex-basis: auto;
+    max-width: none;
+    resize: horizontal;
+}
+
+.client_container #col_channels {
+    width: 100%;
+}
+
+.client_container .p-channel_sidebar {
+    width: 100%;
+}
+
+#messages_container .SSTEmention.c-message {
+    background-color: #ffcfcf;
+}
+
+#messages_container .SSTEmention.c-message--hover {
+    background-color: #ffcfcf;
+}
+
+#messages_container .SSTEmention.c-message--starred {
+    background-color:rgba(255, 204, 0, 0.1);
+    border-left: solid 6px #ffcfcf;
+}

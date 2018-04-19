@@ -1,0 +1,26 @@
+body {
+    width: 300px;
+}
+
+.container {
+    width: 300px;
+    padding: 30px;
+}
+
+.container .resetRow {
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .resetRow:last-child {
+    margin-bottom: 0;
+}
+
+.container .resetRow p {
+    margin-bottom: 0;
+}
+
+.btnOuter {
+    text-align: right;
+}
