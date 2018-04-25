@@ -39,7 +39,7 @@ let SSTEsidebarReset = () => {
 
 // change post color for mentioned post.
 let SSTEchangeMentionColor = () => {
-    var mention = $('.c-virtual_list__item').find('.c-mrkdwn__member--mention');
+    var mention = $('.c-virtual_list__item').find('.c-member_slug--mention');
     if(mention.length > 0){
         var target = mention.closest('.c-message');
         target.addClass('SSTEmention');
